@@ -1,18 +1,28 @@
 # DESIGNING-DEVELOPING-AND-TESTING-SOLUTIONS-FOR-THE-LONDON-UNDERGROUND-SYSTEM
 
 Overview
+
 This project is a London Underground Journey Planner application developed in Python. It uses Dijkstra’s Algorithm to find the shortest path between two stations, considering potential closures of stations or train lines. The project also features live arrival times and visual representations of journey data.
 
 Features
+
 Shortest Path Calculation: Uses Dijkstra’s Algorithm to determine the quickest route between two stations.
+
 Station and Line Closures: Accounts for closed stations and train lines, providing alternative routes.
+
 Live Arrival Time: Displays the expected arrival time at the destination.
+
 Data Visualization: Generates histograms of journey times using Matplotlib.
 
 Installation
+
 Clone the repository:
-Copy code
-git clone https://github.com/yourusername/LondonUndergroundJourneyPlanner.git
+
+Copy code - git clone https://github.com/yourusername/LondonUndergroundJourneyPlanner.git
+
+London Underground - Algorithm.py
+
+
 Navigate to the project directory:
 sh
 Copy code
