@@ -18,48 +18,57 @@ Installation
 
 Clone the repository:
 
-Copy code - git clone https://github.com/yourusername/LondonUndergroundJourneyPlanner.git
-
-London Underground - Algorithm.py
-
+Copy code - git clone https://github.com/dhiiiinnn7/DESIGNING-DEVELOPING-AND-TESTING-SOLUTIONS-FOR-THE-LONDON-UNDERGROUND-SYSTEM.git
 
 Navigate to the project directory:
-sh
-Copy code
-cd LondonUndergroundJourneyPlanner
+
+Copy code - cd London Underground - Algorithm.py
+
 Install the required packages:
-sh
-Copy code
-pip install pandas matplotlib colorama
+
+Copy code - pip install pandas matplotlib colorama
+
+
 Usage
+
 Ensure the data file London Underground Data.xlsx is in the project directory.
+
 Run the Python script:
-sh
-Copy code
-python Comp1828_LondonUnderground_Algorithm.py
+
+Copy code - python LondonUnderground_Algorithm.py
+
 Follow the on-screen prompts to enter the starting point and destination. Optionally, specify closed stations or lines.
+
 Data Structures and Algorithms
+
 Dijkstra’s Algorithm: Chosen for its efficiency in finding shortest paths with positive weights, suitable for our dataset of TFL stations.
+
 Dictionary: Used for fast lookup of stations and their connections.
+
 Arrays: Store visited nodes to manage the journey's progress.
+
 Performance Evaluation
+
 The project successfully integrates the Excel data with Dijkstra’s Algorithm to calculate shortest paths and handles station closures effectively. Challenges included linking the data to the algorithm and handling various edge cases, which were overcome through iterative testing and debugging.
 
 Testing
 Several test cases were performed to validate the functionality:
 
 Shortest route from Stratford to Baker Street.
+
 Time taken for a journey from Barking to Whitechapel.
+
 Alternative route when Mile End station is closed.
+
 Route using the Jubilee line when the Central line is closed.
+
 Live arrival time for various journeys.
+
 Limitations
+
 Single Line Stations: Stations served by only one line cause errors if that line is closed.
+
 Output Direction: The journey path is printed backwards due to the algorithm's implementation.
-Contributors
-Dhin I Md
-Shamsul Alam Rafin
-Moshope Johnson
-Tariq Kamau
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
